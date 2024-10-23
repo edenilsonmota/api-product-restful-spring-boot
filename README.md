@@ -10,7 +10,7 @@ API para gerenciar produtos utilizando **Java 21**, **Spring Boot**, **PostgreSQ
 
 ### Configuração do Banco de Dados
 
-crie o banco de dados no PostgreSQL:
+Crie o banco de dados no PostgreSQL:
 ```
 CREATE DATABASE product;
 ```
@@ -40,6 +40,16 @@ spring.jpa.hibernate.ddl-auto=update
     mvn spring-boot:run
     ```
 
+## Documentação com Swagger UI
+
+A documentação da API está disponível no Swagger UI. Após iniciar o projeto, acesse:
+
+```
+http://localhost:8080/swagger-ui.html
+```
+
+Lá você pode visualizar e testar todos os endpoints da API.
+
 ## Endpoints
 
 - **POST** `/api/products`: Cria um produto
@@ -61,3 +71,4 @@ spring.jpa.hibernate.ddl-auto=update
 ## Tecnologias
 
 - Java 21, Spring Boot, PostgreSQL, Maven
+- Documentação interativa com Swagger UI
